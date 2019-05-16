@@ -65,12 +65,7 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
-			<scope>compile</scope>
-		</dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -110,8 +105,8 @@
 				<version>2.20</version>
 				<configuration>
 					<includes>
-						<include>>**/serenityrestassured/*.java</include>
-						</includes>
+                    <include>src/test/*.java</include>
+                </includes>
 						<reuseForks>true</reuseForks>
 						<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 				</configuration>

@@ -1,1 +1,8 @@
+com\groupkt\junit\Assignment3Test.class
 com\groupkt\base\TestBase.class
+com\groupkt\cucumber\SerenitySteps.class
+com\groupkt\junit\Assignment2Test.class
+com\groupkt\base\Customer.class
+com\groupkt\utility\RandomNumber.class
+com\groupkt\junit\Assignment4Test.class
+com\groupkt\junit\Assignment1Test.class

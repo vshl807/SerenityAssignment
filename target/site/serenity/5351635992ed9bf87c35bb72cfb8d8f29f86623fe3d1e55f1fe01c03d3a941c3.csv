@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Assignment2 test","Validate that there are 5 records found.","SUCCESS","2019-05-17T00:46:22.243+05:30[Asia/Calcutta]","0.0","0.68"
+"Assignment2 test","Validate that largest city is Hyderabad Amaravati","SUCCESS","2019-05-17T00:46:22.941+05:30[Asia/Calcutta]","0.0","0.96"
