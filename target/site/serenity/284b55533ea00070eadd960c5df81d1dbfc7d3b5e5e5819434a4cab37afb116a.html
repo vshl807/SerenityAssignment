@@ -74,7 +74,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-05-2019 22:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-05-2019 23:47</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -89,7 +89,7 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Test Base</span>
+                                    <span class="story-header-title">Assignment1</span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
@@ -107,9 +107,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="error-color">
                                     Get countrylist
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -143,10 +143,75 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
+                    <td width="40"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i>
+                    </td>
+                    <td width="%" colspan="1">
+                    <span class="top-level-step">An error occurred outside of step execution.</span>
+                </td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                <tr class="test-ERROR">
+                    <td width="40">&nbsp</td>
+                    <td width="%" colspan="3">
+                        <span class="error-message"
+                              title="Unresolved compilation problems:  	Syntax error on token '.', delete this token 	The method body(String, Matcher(String)) is undefined for the type TestBase ">
+                        Unresolved compilation problems:  	Syntax error on token '.', delete this token 	The method body(String, Matcher(String)) is undefined for the type TestBase 
+                            </span>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.Error
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Unresolved compilation problems: <br>&nbsp; &nbsp; &nbsp; &nbsp;Syntax error on token &quot;.&quot;, delete this token<br>&nbsp; &nbsp; &nbsp; &nbsp;The method body(String, Matcher&lt;String&gt;) is undefined for the type TestBase</pre>
+                                    </h5>
+                                    com.groupkt.base.TestBase.getCountrylist(TestBase.java
+                                    :29) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :89) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :41) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :541) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :763) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :463) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :209) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </td>
+                </tr>
+                <tr class="test-ERROR">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>7.95s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.03s</em></span></td>
                 </tr>
 
             </table>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Get countrylist</title>
+    <title>This will validate new user creation</title>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -56,7 +56,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > Get countrylist
+        > This will validate new user creation
         </span>
         </div>
         <div class="rightbg"></div>
@@ -74,7 +74,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-05-2019 22:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-05-2019 23:33</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -89,7 +89,7 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Test Base</span>
+                                    <span class="story-header-title">Assignment3</span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
@@ -110,7 +110,7 @@
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    Get countrylist
+                                    This will validate new user creation
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -144,9 +144,71 @@
                     <td colspan="5"></td>
                 </tr>
                 <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                POST http://restapi.demoqa.com/customer/register
+                            </span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-1">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-1" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://restapi.demoqa.com/customer/register
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;FirstName&quot;: &quot;FName551&quot;,<br>    &quot;LastName&quot;: &quot;LName551&quot;,<br>    &quot;UserName&quot;: &quot;UN0312551&quot;,<br>    &quot;Password&quot;: &quot;UN0312551&quot;,<br>    &quot;Email&quot;: &quot;xyz123551@mindtree.com&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: nginx<br>Date: Thu, 16 May 2019 18:03:16 GMT<br>Content-Type: application/json<br>Content-Length: 98<br>Connection: keep-alive<br>Cache-Control: max-age=0<br>Expires: Thu, 16 May 2019 18:03:16 GMT<br>Vary: Accept-Encoding<br>Content-Encoding: gzip<br>Access-Control-Allow-Origin: *<br>alt-svc: quic=&quot;:443&quot;; ma=86400; v=&quot;43,39&quot;</pre>
+                                <h5>Response Body</h5>
+                                    <pre>{<br>    &quot;SuccessCode&quot;: &quot;OPERATION_SUCCESS&quot;,<br>    &quot;Message&quot;: &quot;Operation completed successfully&quot;<br>}</pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.92s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>7.95s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>15.98s</em></span></td>
                 </tr>
 
             </table>
